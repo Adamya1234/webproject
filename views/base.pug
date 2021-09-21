@@ -1,0 +1,23 @@
+doctype html 
+html
+  head
+    title Shiksha Mandir 
+    block scripts
+    block style 
+    nav#navbar
+      ul 
+        div#logo
+          img(src="/static/img/logo.png", alt="")
+          //- | VDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About ]
+        li #[a(href="/services") Services]
+        li #[a(href="/classinfo") Class Info]
+        li #[a(href="/contact") Contact]
+
+
+
+  body
+    block content
+    footer#footer 
+      | Copyright © 2020-2021  &nbsp;&nbsp;&nbsp;|| Veer Dance Academy 

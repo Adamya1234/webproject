@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts
+  script(src='static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+
+    section#introSection  
+      div.Small  #[strong वही भषा जिवित ओर जग्रित रह सकती है जो जनता का ठीक-ठीक प्रतिनिधित्व कर सके , और हिन्दि इसमे समर्थ है ॥]
+
+    section#MissionSection  
+      h1  Our Mission
+      div.card
+        h3  Dance Perfection
+        div.card-box 
+          div.card-img
+            img(src="/static/img/logo2.png", alt="")
+
+          div.card-content
+            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ipsa in eos quia amet officia tempora qui. Delectus, optio cupiditate.
+
+      div.card
+        h3  Dance The Way You Like
+        div.card-box 
+          div.card-img
+            img(src="/static/img/logo5.png", alt="")
+
+          div.card-content
+            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ipsa in eos quia amet officia tempora qui. Delectus, optio cupiditate.
+      div.card
+        h3  Expert Teaching 
+        div.card-box 
+          div.card-img
+            img(src="/static/img/logo3.png", alt="")
+
+          div.card-content
+            p   In teaching, our most problem is helping Moves learn, and so expert teachers are people who consistently help Moves make progress.
+     
+    section#sponsorsSection  
+      h2 Our Sponsers 
+      div#sponsers
+        img(src="/static/img/skype.png", alt="" class="spoImg")
+        img(src="/static/img/mybg78.png", alt="" class="spoImg2")
+        img(src="/static/img/micro.png", alt="" class="spoImg3")
+        img(src="/static/img/spo1.png", alt="" class="spoImg4")

@@ -1,0 +1,39 @@
+extends base.pug
+
+block scripts
+  script(src='static/index.js')
+
+block style 
+    style
+      include ../static/classinfo.css
+      include ../static/style.css
+
+block content
+      section#MissionSection  
+      div#Heading1 
+        h1  Our Mission
+      div.card
+        h3  Timings
+        div.card-box 
+          div.card-img
+            img(src="/static/img/logo2.png", alt="")
+
+          div.card-content
+            p From 4pm to 6pm|  From 6pm to 8pm
+
+      div.card
+        h3  Dance The Way You Like
+        div.card-box 
+          div.card-img
+            img(src="/static/img/logo5.png", alt="")
+
+          div.card-content
+            p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore ipsa in eos quia amet officia tempora qui. Delectus, optio cupiditate.
+      div.card
+        h3  Expert Teaching 
+        div.card-box 
+          div.card-img
+            img(src="/static/img/logo3.png", alt="")
+
+          div.card-content
+            p   In teaching, our most problem is helping Moves learn, and so expert teachers are people who consistently help Moves make progress.
